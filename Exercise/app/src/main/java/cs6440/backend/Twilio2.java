@@ -15,8 +15,8 @@ public class Twilio2 {
     //    if (android.os.Build.VERSION.SDK_INT > 9) {
 //        StrictMode.setThreadPolicy( new StrictMode.ThreadPolicy.Builder().permitAll().build() );
 //    }
-    final String ACCOUNT_SID="ACd0b18eaeeabb5e61e9af97b050147d23";
-    final String AUTH_TOKEN = "d9af2c6fe1ce9e8dcadd23c95ea1e575";
+    final String ACCOUNT_SID="";
+    final String AUTH_TOKEN = "";
 
     public void sendMsg( String message, String phone){
         OkHttpClient client = new OkHttpClient();
